@@ -1,0 +1,146 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+/********** header section **********/
+
+header {
+  background-color: #38A6E8;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+}
+
+.logo img {
+  max-height: 80px;
+}
+
+.connect {
+  font-size: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.connect i {
+  margin: 0 10px 0 0;
+}
+
+.connect button {
+  width: 120px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #F65151;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/********** main image section **********/
+main {
+  overflow: hidden;
+  height: 590px;
+}
+
+main img {
+  position: relative;
+}
+
+.on-image {
+  position: absolute;
+  top: 210px;
+  left: 55vw;
+}
+
+.on-image h1 {
+  color: #0E75B0;
+  font-size: 50px;
+}
+
+.light-blue {
+  color: #38A6E8;
+}
+
+.transparent {
+  background-color: rgba(255,255,255,.8);
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.transparent h3 {
+  color: #38A6E8;
+  font-size: 20px;
+  margin: 0;
+}
+
+.transparent p {
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+.transparent input {
+  height: 28px;
+  box-sizing: border-box;
+  margin: 0 10px 0 0;
+}
+
+.transparent button {
+  height: 28px;
+  width: 60px;
+  background-color: #F68A51;
+  box-sizing: border-box;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 3px;
+  border: none;
+}
+
+/********** footer section **********/
+footer {
+  background-color: #0E75B0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin: 0;
+  padding: 25px;
+}
+
+footer img {
+  height: 70px;
+}
+
+.details {
+  margin: 10px 0 0 0;
+  text-align: center;
+}
+
+.details p {
+  font-size: 10px;
+  margin: 0;
+  line-height: 14px;
+  font-weight: 200;
+}
+
+.details p a{
+  color: white;
+}
+
+.disclosure {
+  border: 1px solid white;
+  padding: 5px;
+  width: 250px;
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+
+.disclosure p {
+  margin: 0;
+  font-size: 10px;
+  font-weight: 200;
+}
