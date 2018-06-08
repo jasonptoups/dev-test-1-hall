@@ -56,7 +56,7 @@ main {
   height: 590px;
 }
 
-main img {
+picture {
   position: relative;
 }
 
@@ -64,6 +64,7 @@ main img {
   position: absolute;
   top: 210px;
   left: 55vw;
+  width: 380px;
 }
 
 .on-image h1 {
@@ -179,4 +180,52 @@ footer img {
   margin: 0;
   font-size: 10px;
   font-weight: 200;
+}
+
+/********** Medium Size Screens **********/
+
+@media (max-width: 900px) {
+  /*** Main ***/
+  .on-image {
+    width: 330px;
+    top: 180px;
+    left: 55vw;
+  }
+
+  .on-image h1 {
+    font-size: 40px;
+  }
+
+  #email {
+    width: 120px;
+  }
+
+  #zip {
+    width: 50px;
+  }
+  
+  #email-form-submit {
+    width: 60px;
+    font-size: 12px;
+  }
+
+  .transparent p {
+    font-size: 12px;
+  } 
+}
+
+/********** Small Size Screens **********/
+@media (max-width: 750px) {
+  /*** Main ***/
+  .on-image {
+    width: 80%;
+    top: 80px;
+    left: 10vw;
+  }
+
+  .transparent {
+    width: 270px;
+    margin: 310px 0 0 0px;
+  }
+  
 }

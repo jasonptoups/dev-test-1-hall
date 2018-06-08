@@ -12,7 +12,6 @@ form.addEventListener('submit', event => {
       }
     )
       .then(res => {
-        console.log('success', res)
         event.target[0].value = ''
         event.target[1].value = ''
       })
